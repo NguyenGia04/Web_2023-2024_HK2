@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop cua Gia</title>
+    <style>
+        * {
+            margin: 0 px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1600px;
+            background-color: wheat;
+            position: relative;
+        }
+        
+        header p {
+            position: absolute;
+            top: 25px;
+            left: 500px;
+            font-size: 40px;
+            text-shadow: tomato 10px 10px 10px;
+            color: tomato;
+        }
+        
+        header:hover>p {
+            color: rgb(193, 223, 62);
+        }
+        
+        header {
+            height: 150px;
+            width: 1600px;
+            background-color: rgb(190, 21, 162);
+            border: 1px solid whitesmoke;
+        }
+        
+        nav {
+            height: 45px;
+            width: 1600px;
+            background-color: rgb(225, 228, 204);
+            border: 1px solid rgb(137, 136, 201);
+        }
+        
+        .menu li {
+            float: left;
+            width: 200px;
+            height: 50px;
+            background-color: teal;
+            line-height: 50px;
+            text-indent: 10px;
+            list-style: none;
+        }
+        
+        li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(160, 83, 83);
+        }
+        
+        .menu li:hover {
+            background-color: royalblue;
+        }
+        
+        .content {
+            height: 500px;
+            width: 1600px;
+            background-color: rgb(15, 15, 14);
+            border: 1px solid rgb(95, 121, 95);
+        }
+        
+        aside {
+            height: 450px;
+            width: 40%;
+            background-color: rgb(147, 226, 147);
+            border: 1px solid whitesmoke;
+            float: left;
+        }
+        
+        section {
+            height: 150px;
+            width: 60%px;
+            background-color: rgb(190, 21, 162);
+            border: 1px solid whitesmoke;
+            float: left;
+        }
+        
+        footer {
+            height: 150px;
+            width: 1600px;
+            background-color: rgb(160, 83, 83);
+            border: 1px solid rgb(201, 21, 21);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="/img/header.jpg" alt="" height="150" width="1600">
+            <p>Shop cua Gia</p>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">Dien thoai</a></li>
+
+                <li>
+                    <a href="#">PC</a></li>
+                <li>
+                    <a href="#">May tinh bang</a></li>
+                <li>
+                    <a href="#">Tai nghe</a></li>
+                <li>
+                    <a href="#">Phu kien</a></li>
+                <li>
+                    <a href="#">Khác</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside></aside>
+            <section></section>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
