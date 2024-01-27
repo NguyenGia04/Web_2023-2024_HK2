@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop cua gia</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            background-color: moccasin;
+        }
+        
+        header {
+            position: relative;
+        }
+        
+        header h1 {
+            position: absolute;
+            top: 110px;
+            left: 350px;
+            color: yellow;
+        }
+        
+        nav {
+            position: relative;
+        }
+        
+        .menu li {
+            height: 50px;
+            width: 100px;
+            position: absolute;
+            list-style-type: none;
+            background-color: skyblue;
+            border-radius: 10px;
+        }
+        
+        .menu li:nth-child(1) {
+            top: 20px;
+            left: 100px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(2) {
+            top: 20px;
+            left: 250px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(3) {
+            top: 20px;
+            left: 400px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(4) {
+            top: 20px;
+            left: 550px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(5) {
+            top: 20px;
+            left: 700px;
+        }
+        
+        .menu li:hover {
+            background-color: red;
+        }
+        
+        li a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        li a:hover {
+            background-color: red;
+        }
+        
+        form #txtEmail {
+            width: 60px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../img/anhheader2.PNG" alt="" height="150" width="1089">
+            <h1>Happy new year 2024</h1>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">ITEM1</a></li>
+                <li><a href="#">ITEM2</a></li>
+                <li><a href="#">ITEM3</a></li>
+                <li><a href="#">ITEM4</a></li>
+                <li><a href="#">ITEM5</a>
+                    <form action="" method="POST">
+                        <input type="email" name="txtEmail" id="txtEmail">
+                        <button type="submit">OK</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+
+</html>
